@@ -1,0 +1,185 @@
+ /* form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+} */
+/* .travel-planner {
+  background-image: url('https://www.example.com/travel-background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  color: rgb(223, 81, 136);
+  text-shadow: 1px 1px #000;
+}
+
+.travel-planner h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+} */
+
+/* .travel-planner label {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.travel-planner select, .travel-planner input[type="radio"] {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.travel-planner button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 24px;
+  color: white;
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.travel-planner button:hover {
+  background-color: #16a085;
+}
+
+.travel-planner h2 {
+  margin-top: 20px;
+  font-size: 36px;
+} */
+
+.travel-planner {
+  background-image: url('https://images.unsplash.com/photo-1494783367195-149034c05e8f');
+  background-color: #1e90ff;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  }
+  
+  .travel-planner h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  }
+  
+  .travel-planner div {
+  margin-bottom: 20px;
+  }
+  
+  .travel-planner label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  }
+  
+  .travel-planner select {
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  }
+  
+  .travel-planner input[type='number'] {
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  }
+  
+  .travel-planner input[type='checkbox'] {
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  
+  .travel-planner button {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .budget-display {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+  .travel-planner {
+  padding: 10px;
+  }
+  
+  .travel-planner h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  }
+  
+  .travel-planner label {
+  font-size: 1rem;
+  }
+  
+  .travel-planner select {
+  font-size: 0.8rem;
+  padding: 3px;
+  }
+  
+  .travel-planner input[type='number'] {
+  font-size: 0.8rem;
+  padding: 3px;
+  }
+  
+  .travel-planner button {
+  font-size: 1rem;
+  padding: 8px;
+  }
+  
+  .budget-display p {
+  font-size: 1rem;
+  }
+  }
